@@ -23,7 +23,9 @@
 					<version>3.0.0-M1</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>src/test/resources/basetestng.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/Basetestng.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/Maventestng.xml</suiteXmlFile>
+
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -65,13 +67,13 @@
 			<version>6.14.2</version>
 			<scope>test</scope>
 		</dependency>
-		
-		  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-htmlunit-driver</artifactId>
-            <version>2.52.0</version>
-        </dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-htmlunit-driver</artifactId>
+			<version>2.52.0</version>
+		</dependency>
 
 	</dependencies>
 </project>
